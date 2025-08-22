@@ -91,9 +91,13 @@ nav img {
 }
 
 .btn {
-    padding: 3px 8px;
+    padding: 5px 16px;
     font-weight: 550;
-    background-color: white;
+    background-color: rgba(14, 15, 15, 0.527);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 5px;
 }
 
 .btn-red {
@@ -108,7 +112,8 @@ nav img {
 .btn-red-sm {
     background-color: red;
     color: white;
-
+    padding: 10px 15px 8px 15px;
+    font-size: 15px;
 }
 
 .main input {
@@ -130,4 +135,18 @@ nav img {
     justify-content: center;
     align-items: center;
     gap: 7px;
+}
+
+.main .btn img{
+    /* background-color: red; */
+    width: 20px;
+    position: relative;
+    top: 2px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.nav-buttons> :nth-child(1){
+    padding: 8px 15px;
+    font-size: 15px;
 }
