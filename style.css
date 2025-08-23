@@ -9,6 +9,7 @@
 
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .main {
@@ -120,13 +121,13 @@ nav img {
     /* padding: 3px 104px 3px 0px;
     font-size: 20px;
     font-weight: 500; */
-    color: white; 
+    color: white;
     border-radius: 2px;
     width: 315px;
     padding: 15px;
     background-color: rgba(23, 23, 23, 0.75);
     border: 1px solid rgb(84, 78, 78);
-    
+
 }
 
 .input-content {
@@ -137,7 +138,7 @@ nav img {
     gap: 7px;
 }
 
-.main .btn img{
+.main .btn img {
     /* background-color: red; */
     width: 20px;
     position: relative;
@@ -146,7 +147,127 @@ nav img {
     padding-right: 5px;
 }
 
-.nav-buttons> :nth-child(1){
+.nav-buttons> :nth-child(1) {
     padding: 8px 15px;
     font-size: 15px;
+    /* border: 1px solid white; */
+}
+
+.first {
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: 130px auto;
+    justify-content: center;
+}
+
+.first-content p {
+    /* background-color: blue; */
+    max-width: 470px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.first-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.firstImg {
+    position: relative;
+    /* background-color: red; */
+}
+
+.firstImg img {
+    max-width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.firstImg video {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    max-width: 350px;
+}
+
+.second {
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: 130px auto;
+    justify-content: center;
+}
+
+.second-content p {
+    /* background-color: blue; */
+    max-width: 470px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.second-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.secImg {
+    position: relative;
+    /* background-color: red; */
+}
+
+.secImg img {
+    max-width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.third {
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: 130px auto;
+    justify-content: center;
+}
+
+.third-content p {
+    /* background-color: blue; */
+    max-width: 470px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.third-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.thirdImg {
+    position: relative;
+    /* background-color: red; */
+}
+
+.thirdImg img {
+    max-width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.thirdImg video {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    max-width: 350px;
 }
