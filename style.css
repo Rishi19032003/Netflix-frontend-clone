@@ -160,7 +160,7 @@ nav img {
     align-items: center;
     max-width: 70vw;
     margin: 130px auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .first-content p {
@@ -202,7 +202,7 @@ nav img {
     align-items: center;
     max-width: 70vw;
     margin: 130px auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .second-content p {
@@ -237,7 +237,7 @@ nav img {
     align-items: center;
     max-width: 70vw;
     margin: 130px auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .third-content p {
@@ -270,4 +270,69 @@ nav img {
     top: 60px;
     left: 60px;
     max-width: 350px;
+}
+
+.fourth {
+    color: white;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: 130px auto;
+    justify-content: space-between;
+}
+
+.fourth-content p {
+    /* background-color: blue; */
+    max-width: 470px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.fourth-content h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.fourthImg {
+    position: relative;
+    /* background-color: red; */
+}
+
+.fourthImg img {
+    max-width: 450px;
+    position: relative;
+    z-index: 10;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 15px;
+}
+
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    margin-top: 40px;
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+    padding: 19px 24px;
+    max-width: 65vw;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.faqbox:hover{
+    background-color: rgb(112, 112, 112);
 }
